@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{  padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins' , sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+.logoF{
+    width:90px;
+    height:90px;
+    margin:0px;
+    margin-left:10%;
+    margin-top:2%;
+    animation : appear 3s ease-in-out forwards;
+}
+/* navbar */
+ul{
+    float:inline-end;
+}
+ navbar li{
+    display:inline-block;
+    margin:0 0px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+    margin-right:70px;
+}
+li a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+navbar ul li a:hover {
+color:#017143;
+}
+/*navbar end*/
+.bigHeader{
+    text-align: center;
+    color:#017143;
+    margin-left: 40%;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+margin-top:10%;
+}
+.container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        place-items: center;
+        margin-top:25px;
+        margin-top: 25px;     
+}
+.product {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .productPic{
+    width: 100%;
+    height: auto;
+  }
+  
+  .productDesc {
+    text-align: center;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+  }
+  
+  .productPrice {
+    font-weight: light;
+  }
+  #scrollToTopBtn {
+    display:inline-block;
+    margin-top:20px;
+    padding:8px 20px;
+    background:#017143;
+    color:white;
+    border-radius:40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left:45%  ; 
+    cursor: pointer; 
+    margin-bottom: 10%;
+  }
+  /* footer nav */
+.footerCotainer {
+    background-color: #017143;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    margin:0%;
+    margin-top:5%;
+  }
+  
+  .social ul,
+  .footernav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-weight: lighter;
+  }
+  
+  .social li,
+  .footernav li {
+    margin: 0 20px;
+  }
+  
+  .social a,
+  .footernav a {
+    text-decoration: none;
+    color: #fff;
+  font-size: larger;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+  }
+  
+  .imgs {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .copyright {
+    font-size: 0.6em;
+  }
+  
+  .designer {
+    font-weight: bold;
+    color: pink;
+    text-align: center;
+  }
+  
+  
